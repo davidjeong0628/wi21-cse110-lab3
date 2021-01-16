@@ -115,6 +115,19 @@
                 <label> Website
                     <input type="url" name="website">
                 </label>
+                <label>Here are my favorite hobbies, any matches?
+                    <select name="hobbies">
+                        <optgroup label="Sports-related">
+                            <option>Watch soccer</option>
+                            <option>Walking</option>
+                            <option>Bicycling</option>
+                        </optgroup>
+                        <optgroup label="Leisure">
+                            <option>Travel</option>
+                            <option>Listen to music</option>
+                        </optgroup>
+                    </select>
+                </label>
                 <label>Favorite Color
                     <input type="color" name="fav-color">
                 </label>
@@ -123,6 +136,9 @@
                 </label>
                 <label>Upload a picture of yourself
                     <input type="file" name="profile-pic" accept="image/png, image/jpeg">
+                </label>
+                <label>Tell me more about yourself
+                    <textarea name="info" cols="30" rows="10"></textarea>
                 </label>
                 <input type="reset" value="Reset">
                 <input type="submit" value="Submit">
