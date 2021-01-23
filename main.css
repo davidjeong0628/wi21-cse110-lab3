@@ -11,6 +11,20 @@
 body {
     background-color: rgba(0, 100, 255, 0.3);
     margin: auto;
+    max-width: 80%;
+}
+
+nav ~ section {
+    margin: 1% 0% 1% 0%;
+}
+
+source + img {
+    width: 400px;
+    height: 550px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 a:hover {
