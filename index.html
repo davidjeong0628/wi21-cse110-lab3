@@ -8,7 +8,13 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yusei+Magic">
         <link rel="stylesheet" href="main.css">
+        <style>
+            ol, ul {
+                font-family: 'Yusei Magic';
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -22,7 +28,7 @@
                     <li><a href="#fun-facts">Fun Facts About Me</a></li>
                 </ol>
             </nav>
-            <section id="who-am-i">
+            <section id="who-am-i" style="text-align: center;">
                 <h2>Who Am I?</h2>
                 <p><code>print("Hello, World!");</code></p>
 
@@ -45,17 +51,8 @@
                 <ul>
                     <li>
                         <h3>Top 3 Countries I Want to Visit</h3>
-                        <ol>
-                            <li>
-                                Italy
-                                <details>
-                                    <summary>Dream Place</summary>
-                                    <figure>
-                                        <img src="florence.jpg" alt="Pretty view of Florence">
-                                        <figcaption>Plan to visit the beautiful city of Florence someday</figcaption>
-                                    </figure>
-                                </details>
-                            </li>
+                        <ol class="top3">
+                            <li>Italy</li>
                             <li>Japan</li>
                             <li>
                                 France
