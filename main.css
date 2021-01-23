@@ -12,6 +12,7 @@ body {
     background-color: rgba(0, 100, 255, 0.3);
     margin: auto;
     max-width: 80%;
+    position: static;
 }
 
 nav ~ section {
@@ -51,6 +52,9 @@ header > h1 {
     padding-left: 0.5%;
     padding-right: 0.5%;
     display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 ol.top3 {
