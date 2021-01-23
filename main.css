@@ -64,6 +64,13 @@ ol.top3 {
     align-items: stretch;
 }
 
+#heming {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
 @media screen and (min-width: 600px) {
     header h1 {
         color: hsl(50, 50%, 50%);
