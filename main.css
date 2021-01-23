@@ -12,6 +12,14 @@ body {
     background-color: rgba(0, 100, 255, 0.3);
 }
 
+a:hover {
+    background-color: #ffcccc;
+}
+
+a:active {
+    background-color: #f00;
+}
+
 header > h1 {
     color: green;
     text-decoration: underline;
