@@ -37,3 +37,19 @@ header > h1 {
     padding-right: 0.5%;
     display: inline-block;
 }
+
+@media screen and (min-width: 600px) {
+    header h1 {
+        color: hsl(50, 50%, 50%);
+        text-decoration: underline;
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    header h1[wow] {
+        color: hsla(10, 100%, 50%, 100%);
+        text-decoration: underline;
+        font-size: 50px;
+    }
+}
